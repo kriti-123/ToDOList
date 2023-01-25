@@ -1,0 +1,48 @@
+*{
+  margin:0;padding:0;
+}
+body{
+  background-image: linear-gradient(to right, #2C3E50  , #566573 );
+}
+table thead th{
+  color:white;
+}
+input[type="text"]{
+  background:transparent;
+  /* color:white; */
+  width:15rem;
+  height:2rem;
+  text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+}
+input[type="date"]
+{
+  background: transparent;
+  width:15rem;
+  height:2rem;
+  color:white;
+}
+select{
+  background: transparent;
+  width:15rem;
+  height:2rem;
+  color:white;
+}
+select option{
+  color:white;
+  background-color: #2C3E50;
+}
+td p{
+  color:white;
+}
+.table{
+  width:70%;
+  margin:auto;
+}
+h2{
+  color:white;
+
+}
